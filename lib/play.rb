@@ -42,6 +42,6 @@ def play(board)
   loop do
     turn(board) 
     chances += 1
-  break if chances == 5
+  break if chances == 9
   end
 end
