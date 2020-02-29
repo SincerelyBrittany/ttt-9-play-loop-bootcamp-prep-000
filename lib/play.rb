@@ -40,6 +40,7 @@ def play(board)
     chances = turn(board)
     chances = 0
   loop do
+    chances
     chances += 1
   break if chances == 10
   end
