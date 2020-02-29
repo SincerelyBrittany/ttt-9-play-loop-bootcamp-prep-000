@@ -41,7 +41,6 @@ def play(board)
     chances = 0
   loop do
     chances += 1
-    print chances
   break if chances == 10
   end
 end
