@@ -37,10 +37,11 @@ end
 
 # Define your play method below
 def play(board)
-    m = 0
+    chances = turn(board)
+    chances = 0
   loop do
-    m += 1
-    print m
-  break if m == 50
+    chances += 1
+    print chances
+  break if chances == 10
   end
 end
