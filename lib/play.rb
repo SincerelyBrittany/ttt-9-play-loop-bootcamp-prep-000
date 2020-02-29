@@ -37,7 +37,7 @@ end
 
 # Define your play method below
 def play(board)
-    chances = turn(board)
+    # chances = turn(board)
     chances = 0
   loop do
     chances
