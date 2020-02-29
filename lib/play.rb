@@ -37,4 +37,10 @@ end
 
 # Define your play method below
 def play(board)
-  
+    m = 0
+  loop do
+    m += 1
+    print m
+  break if m == 50
+  end
+end
